@@ -3,13 +3,8 @@ package taskjava;
 
 
 public class Biodata {
-    private String fullName; 
-    private String placeOfBirth;
-    private String dateOfBirth;
-    private String hobby;
-    private String zodiac; 
-    private String favoriteFood; 
-    private String goals;
+    private String fullName, placeOfBirth, dateOfBirth, hobby, zodiac, 
+            favoriteFood, goals;
     
     // constructor w/ parameters
     Biodata(String fullName, String placeOfBirth, String dateOfBirth, String hobby,
