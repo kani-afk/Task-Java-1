@@ -4,11 +4,11 @@ package taskjava;
 public class TaskJava {
 
     public static void main(String[] args) {
-    // read
+    
     Biodata biodata = new Biodata("Kanira", "Jakarta", "27 August 2003", 
         "Scrolling my phone", "Virgo", "Katsu Toji", "hmm apaya");
-        
-        biodata.display();
+    
+        biodata.display();  // read
 
     System.out.println(" ");
     
